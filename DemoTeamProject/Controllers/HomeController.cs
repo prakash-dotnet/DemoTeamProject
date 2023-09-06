@@ -10,8 +10,8 @@ namespace DemoTeamProject.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            return View();
-        }*/
+             _logger= logger;
+        }
 
         public IActionResult Privacy()
         {
