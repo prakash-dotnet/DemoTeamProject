@@ -10,15 +10,20 @@ namespace DemoTeamProject.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
-        }
+            return View();
+        }*/
 
-        public IActionResult Index()
+        public IActionResult Privacy()
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        //action Methods added by sudharshan
+        public IActionResult about()
+        {
+            return View();
+        }
+        //action Methods added by sudharshan
+        public IActionResult Contact()
         {
             return View();
         }
