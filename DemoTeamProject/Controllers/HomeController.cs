@@ -10,15 +10,11 @@ namespace DemoTeamProject.Controllers
 
         //Chanded by spandana on main branch
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        
+      /*  public IActionResult Index()
         {
             return View();
-        }
+        }*/
 
         public IActionResult Privacy()
         {
