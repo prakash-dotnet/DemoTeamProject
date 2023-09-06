@@ -24,6 +24,16 @@ namespace DemoTeamProject.Controllers
         {
             return View();
         }
+        //action Methods added by sudharshan
+        public IActionResult about()
+        {
+            return View();
+        }
+        //action Methods added by sudharshan
+        public IActionResult Contact()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
